@@ -12,7 +12,7 @@ Developing an intelligent chatbot using deep learning with Keras.
 - create `intents.json` file
 
 ### Data Prep
-- these succeeding steps will be completed in the `train.ipynb` file
+- these succeeding steps will be completed in the `train.ipynb` file -> everything is successfully ran in the `train-kg.ipynb` file
     - import all the required packages
     - load the json file and extract necessary data
         - the `training_sentences` variable is what holds the training data -> the sample messages is the intent categories
@@ -30,4 +30,8 @@ Developing an intelligent chatbot using deep learning with Keras.
 - saved the required files to use at inference time
 
 ### Inference
-
+- implementing a chat function to communicate with users
+- __How This Works?__
+    - upon receiving a new message, the chat bot calculates the similarity between the new text sequence and the training data
+    - with the confidence scores from each category, the model categorizes the user's message to an intent with the correlating highest confidence score
+- this is all laid out in the `chat.py` file
