@@ -18,5 +18,10 @@ Developing an intelligent chatbot using deep learning with Keras.
         - the `training_sentences` variable is what holds the training data -> the sample messages is the intent categories
         -the `training_labels` variable holds the target labels that correspond with the training data
     - create the "LabelEncoder()" function to convert the target labels into an understandable model form
+    - create `tokenizer` class to vectorize the data corpus 
+        - using this class for the pre-processing tasks removes the punctuations and splits the words into lists of tokens
+        - the tokens are then indexed or vectorized
+        - the `oov_token` attribute is used to deal with out of vocabulary tokens
+    - the  `padded_sequences ` method is to make the training text sequences the same size
 
 
