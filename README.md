@@ -15,5 +15,8 @@ Developing an intelligent chatbot using deep learning with Keras.
 - these succeeding steps will be completed in the `train.ipynb` file
     - import all the required packages
     - load the json file and extract necessary data
+        - the `training_sentences` variable is what holds the training data -> the sample messages is the intent categories
+        -the `training_labels` variable holds the target labels that correspond with the training data
+    - create the "LabelEncoder()" function to convert the target labels into an understandable model form
 
 
