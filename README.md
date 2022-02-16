@@ -14,8 +14,6 @@ Developing an intelligent chatbot using deep learning with Keras.
 ### Data Prep
 - these succeeding steps will be completed in the `train.ipynb` file
     - import all the required packages
-
-
-
+    - load the json file and extract necessary data
 
 
