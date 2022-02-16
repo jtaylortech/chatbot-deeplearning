@@ -7,6 +7,11 @@ Developing an intelligent chatbot using deep learning with Keras.
 - install the dependencies 
     - run `pip install -r requirements.txt`
 
+### Define Intents
+- these intents are created to to establish context during a conversation
+- create `intents.json` file
+
+
 
 
 
