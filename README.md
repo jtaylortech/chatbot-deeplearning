@@ -24,4 +24,7 @@ Developing an intelligent chatbot using deep learning with Keras.
         - the `oov_token` attribute is used to deal with out of vocabulary tokens
     - the  `padded_sequences ` method is to make the training text sequences the same size
 
+### Model Training
+- used `Sequential` class from __Keras__ to define the Neural Network architecture for the proposed model
+
 
