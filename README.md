@@ -27,4 +27,7 @@ Developing an intelligent chatbot using deep learning with Keras.
 ### Model Training
 - used `Sequential` class from __Keras__ to define the Neural Network architecture for the proposed model
 - used the `fit` method to train the model
--
+- saved the required files to use at inference time
+
+### Inference
+
